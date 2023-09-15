@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Color primario para el fondo y algunos elementos de texto */
+body {
+  background-color: #6e6c79;
+}
+
+/* Color secundario para el texto y enlaces */
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000;
+}
+
+/* Cambiar el color del texto del encabezado principal a blanco */
+.display-4 {
+  color: #000000;
+}
+
+/* Cambiar el color de los textos en el pie de página a blanco */
+footer {
+  color: #000000;
+}
+
+/* Cambiar el color de los enlaces en el pie de página a blanco */
+footer .nav-link {
+  color: #ffffff;
+}
+
+/* Cambia el color del texto de los números de teléfono y correo electrónico */
+.contact-info {
+  color: #000000; 
+}
+
+/* Estilo para la ventana de impresión */
+@media print {
+  /* Cambia el color del texto en la ventana de impresión a negro */
+  body {
+    color: #000000 !important;
+  }
+}
